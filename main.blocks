@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="X!fi*GNwz^%Go~=8JLL-">go</variable></variables><block type="device_forever" id="zka*-ah,j-R6*/u(r||G" x="354" y="-530"></block><block type="device_button_event" id="_p)5{.s[/I;,_(7vpMKS" x="419" y="-143"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="n|f*cPC!+/#Nn!T?cn:G"><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field><value name="VALUE"><shadow type="math_number" id="iie,Mb-cR;DLC6~06Yne"><field name="NUM">9</field></shadow></value><next><block type="device_while" id="$e7XGe.^@@[W4Hr;*=DI"><value name="COND"><shadow type="logic_boolean"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="wp0~w4s6{EnI3pSz{vXi"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="i;F4`OY~3trR~fZD_c{."><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field></block></value><value name="B"><shadow type="math_number" id="Ce3@IKs?m^qd]EkG{s[["><field name="NUM">-1</field></shadow></value></block></value><statement name="DO"><block type="device_show_number" id="F#X_2:3gG,Ye^;GeWLaE"><value name="number"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="frrnq4y,4z;.oUb0JRCP"><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field></block></value><next><block type="variables_change" id="*(}{~=$Cr`k*J_V?}7f@"><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field><value name="VALUE"><shadow type="math_number" id="IOTXyB%im#iZ[3rMtCN%"><field name="NUM">-1</field></shadow></value></block></next></block></statement><next><block type="device_while" id="g}70,`~`i4LU3jDuZ9}b"><value name="COND"><shadow type="logic_boolean" disabled="true"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="BovW[MAtq]yAvty38d!g"><field name="OP">LT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="#7aC[;!OefjE`9?NB3+d"><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field></block></value><value name="B"><shadow type="math_number" id="]@~0ViN(%iV|Hj@/]!1/"><field name="NUM">0</field></shadow></value></block></value><statement name="DO"><block type="device_pause" id="m|m/1c6Zu,HwP*k|Q?t|"><value name="pause"><shadow type="timePicker" id="A4p+X_hXO+7)Qr;Dpx;8"><field name="ms">2000</field></shadow></value><next><block type="device_show_leds" id="]+;U+C|QRq,1jaR*#IM."><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id=";Loh;XsHmJ@TwpGOn-Pw"><field name="LEDS">`
+        . . . . . 
+        . . # . . 
+        . # . # . 
+        . . # . . 
+        . . . . .
+        `</field><next><block type="device_show_leds" id="vjXf(aSOS4rREErQRDLQ"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field><next><block type="device_show_leds" id="E/AS(xh5a!|{BaRS6W~P"><field name="LEDS">`
+        . # . # . 
+        # . . . # 
+        . . . . . 
+        # . . . # 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="~|wx%=I;n]-y*W/xTi03"><field name="LEDS">`
+        # . . . # 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></next></block></statement></block></next></block></next></block></statement></block><block type="pxt-on-start" id="?u[@#g?/qZ@Z]Si:kMq@" x="0" y="0"></block><block type="device_button_event" id="1N*]XF_4{l5sX=V+iDCW" x="751" y="96"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="yKW|N,xpEBCZiW_[RNdg"><field name="VAR" id="X!fi*GNwz^%Go~=8JLL-">go</field><value name="VALUE"><shadow type="math_number" id="AK3o7P-nxxzr)E+c%uvs"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="A`=XDMjF;0gEZC=O@V33" x="16" y="263"></block></xml>
